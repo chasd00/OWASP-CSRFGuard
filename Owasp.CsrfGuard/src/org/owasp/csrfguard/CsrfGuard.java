@@ -41,9 +41,7 @@ import org.owasp.csrfguard.util.*;
 public final class CsrfGuard implements Serializable {
 
 	private static final long serialVersionUID = 2621580348137545167L;
-
 	public final static String SESSION_KEY = "Owasp_CsrfGuard_Session_Key";
-	
 	public final static String PAGE_TOKENS_KEY = "Owasp_CsrfGuard_Pages_Tokens_Key";
 	
 	private final static String ACTION_PREFIX = "org.owasp.csrfguard.action.";
